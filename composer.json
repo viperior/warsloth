@@ -6,10 +6,12 @@
     "license": "",
     "authors": [
         {
-           
+           "name": "Luke Adair",
+           "email": "j.luke.adair@gmail.com" 
         }
     ],
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "php-di/php-di": "^5.4"
     }
 }

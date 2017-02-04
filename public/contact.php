@@ -1,5 +1,4 @@
-<?php include "includes/header.php" ?>
-	
+<?php include "includes/header.php"; ?>
 
 <div class="row">
 	<div class="col-sm-12">
@@ -20,4 +19,4 @@
 <!-- /.row -->
 
 
-<?php include "includes/footer.php" ?>
+<?php include "includes/footer.php"; ?>

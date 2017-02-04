@@ -1,7 +1,6 @@
 <?php $is_homepage = true ?>
-<?php include "includes/header.php" ?>
+<?php include "includes/header.php"; ?>
 	
-
 <hr>
 
 <div class="row">
@@ -41,4 +40,4 @@
 
 
 
-<?php include "includes/footer.php" ?>
+<?php include "includes/footer.php"; ?>
