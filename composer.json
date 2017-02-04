@@ -1,5 +1,15 @@
 {
+    "name": "capstone/webops",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/viperior/warsloth",
+    "license": "",
+    "authors": [
+        {
+           
+        }
+    ],
     "require": {
-       
+        "php": ">=5.5.0"
     }
 }
