@@ -62,6 +62,9 @@
 					<li>
 						<a href="login.php">Login</a>
 					</li>
+					<li>
+						<a href="upload.php">Upload File</a>
+					</li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
