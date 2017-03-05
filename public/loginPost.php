@@ -1,5 +1,5 @@
-<?php 
-	require __DIR__ . '/../com/capstone/model/userManager.php'; 
+<?php
+	require __DIR__ . '../com/capstone/model/userManager.php'; 
 	$userManager = new UserManager();
 
 	$username = "";
@@ -16,7 +16,7 @@
 ?>
 
 <?php include "includes/header.php"; ?>
-	
+
 <hr>
 
 <div class="row">
@@ -34,7 +34,7 @@
 			<p>Login failed!</p>
 		<?php } ?>
 
-		
+
 	</div>
 </div>
 <!-- /.row -->

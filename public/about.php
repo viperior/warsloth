@@ -1,5 +1,5 @@
-<?php 
-	require __DIR__ . '/../com/capstone/model/staffManager.php'; 
+<?php
+	require __DIR__ . '../com/capstone/model/staffManager.php';
 	$staffManager = new StaffManager();
 
 	if(isset($_POST["staffFilter"])) {
@@ -14,7 +14,7 @@
 ?>
 
 <?php include "includes/header.php"; ?>
-	
+
 
 <div class="row">
 	<div class="col-sm-12">
