@@ -45,7 +45,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href=".">My Company</a>
+				<a class="navbar-brand" href=".">Cobra</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -80,7 +80,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class="tagline">Business Name or Tagline</h1>
+						<h1 class="tagline">Oppurtunity From Chaos</h1>
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <?php $is_homepage = true ?>
 <?php include "includes/header.php"; ?>
-	
+
 <hr>
 
 <div class="row">
@@ -9,7 +9,7 @@
 		<p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
 		<p>
-			<a class="btn btn-default btn-lg" href="#">Call to Action &raquo;</a>
+			<a class="btn btn-default btn-lg" href="#">Hire Cobra &raquo;</a>
 		</p>
 	</div>
 </div>
@@ -19,19 +19,19 @@
 
 <div class="row">
 	<div class="col-sm-4">
-		<img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-		<h2>Marketing Box #1</h2>
-		<p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+		<img class="img-circle img-responsive img-center" src="img/arms-sales.png" alt="">
+		<h2>Arms Sales</h2>
+		<p>There are over 550 million firearms in worldwide circulation. That's one firearm for every twelve people on the planet. The only question is: How do we arm the other 11?</p>
 	</div>
 	<div class="col-sm-4">
 		<img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-		<h2>Marketing Box #2</h2>
-		<p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+		<h2>Multi-Level Marketing</h2>
+		<p>All businesses are pyramidal in structure, but some are more pyramidal than others. We connect hard-working down-line distributors with generous overlords who help them help us.</p>
 	</div>
 	<div class="col-sm-4">
 		<img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-		<h2>Marketing Box #3</h2>
-		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+		<h2>Semi-Legimate Business Schemes</h2>
+		<p>I say, "potato", you say "federal felony." Cobra takes pride in braving the greyer areas of entreprise.</p>
 	</div>
 </div>
 <!-- /.row -->
