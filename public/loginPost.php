@@ -1,5 +1,5 @@
 <?php
-	require __DIR__ . '../com/capstone/model/userManager.php'; 
+	require dirname(__FILE__) . '/../com/capstone/model/userManager.php';
 	$userManager = new UserManager();
 
 	$username = "";

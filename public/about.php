@@ -1,5 +1,5 @@
 <?php
-	require __DIR__ . '../com/capstone/model/staffManager.php';
+	require '../com/capstone/model/staffManager.php';
 	$staffManager = new StaffManager();
 
 	if(isset($_POST["staffFilter"])) {

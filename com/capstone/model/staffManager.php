@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-require __DIR__ . '/../settings/settings.php';
+require dirname(__FILE__) . '/../settings/settings.php';
 $settings = new SettingsManager();
 
 
@@ -14,7 +14,7 @@ class StaffManager {
 		// Check connection
 		if($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
-		} 
+		}
 
 		$sql = "SELECT staffID, firstname, lastname FROM staff";
 		if($filter != "") {

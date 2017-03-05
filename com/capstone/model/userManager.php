@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-require __DIR__ . '/../settings/settings.php';
+require dirname(__FILE__) . '/../settings/settings.php';
 $settings = new SettingsManager();
 
 
@@ -14,7 +14,7 @@ class UserManager {
 		// Check connection
 		if($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
-		} 
+		}
 
 		$sql = "SELECT userID, username, password, trophyCode FROM user";
 		$sql = $sql . " WHERE username = '" . $username . "'";
