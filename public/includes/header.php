@@ -30,6 +30,9 @@
 	<!-- Bootstrap Core JavaScript -->
 	<script src="./js/bootstrap.min.js"></script>
 
+	<!-- PIN Code Security -->
+	<script src="./js/pin.js"></script>
+
 </head>
 
 <body>

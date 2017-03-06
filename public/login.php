@@ -1,5 +1,5 @@
 <?php include "includes/header.php"; ?>
-	
+
 <hr>
 
 <div class="row">
@@ -16,9 +16,21 @@
 				<label>Password<br/>
 					<input class="form-control" type="password" name="password" />
 				</label>
-				<button class="btn btn-primary" type="submit">Login</button>			
+				<button class="btn btn-primary" type="submit">Login</button>
 			</div>
 		</form>
+
+		<h2>PIN Login</h2>
+
+		<form class="form-inline">
+			<div class="form-group">
+				<input id="pin-code-input" class="form-control" type="number" name="pin" />
+				<!--button class="btn btn-primary" type="submit" onclick="check_pin()">Login</button-->
+				<button class="btn" type="button" onclick="check_pin()">Login</button>
+				<p id="pin-code-feedback"></p>
+			</div>
+		</form>
+
 	</div>
 </div>
 <!-- /.row -->
