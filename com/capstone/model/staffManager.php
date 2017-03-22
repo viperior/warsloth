@@ -16,7 +16,7 @@ class StaffManager {
 			die("Connection failed: " . $conn->connect_error);
 		}
 
-		$sql = "SELECT staffID, firstname, lastname FROM staff";
+		$sql = "SELECT staffID, firstname, lastname, staffBio FROM staff";
 		if($filter != "") {
 			$sql = $sql . " WHERE firstname = '" . $filter . "'";
 		}
