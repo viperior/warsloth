@@ -1,6 +1,4 @@
 <?php
-	session_start();
-	
 	require dirname(__FILE__) . '/../com/capstone/model/userManager.php';
 	$userManager = new UserManager();
 
@@ -15,11 +13,11 @@
 
 	// get user
 	$user = $userManager->loginUser($username, $password);
-	
-	$_SESSION["username"] = $username;
-?>
 
-<?php include "includes/header.php"; ?>
+	include "includes/header.php";
+	$_SESSION["username"] = $username;
+	$_SESSION["logged_in"] = true;
+?>
 
 <hr>
 
@@ -42,7 +40,5 @@
 	</div>
 </div>
 <!-- /.row -->
-
-<?php print_r($_SESSION); ?>
 
 <?php include "includes/footer.php"; ?>

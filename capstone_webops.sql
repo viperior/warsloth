@@ -77,3 +77,4 @@ CREATE TABLE `user` (
 INSERT INTO `user` VALUES ('1', 'ceo', 'mysecretpassword', 'c66604a0-9acf-4129-aa8c-6b0df8958f8d', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
 INSERT INTO `user` VALUES ('2', 'admin', 'supersecurepassword', '23601841-6e29-45c6-b094-cd6bf4f22143', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
 INSERT INTO `user` VALUES ('3', 'test', 'password', '8740a775-77bc-4ac4-a14d-2f4b69c43231', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
+INSERT INTO `user` VALUES ('4', 'dashton', 'incorrect', '8740a775-77bc-4ac4-a14d-2f4b69c43235', '2017-02-19 16:04:26', '2017-02-19 16:04:36');

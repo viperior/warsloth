@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>My Company</title>
+	<title>Cobra</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -63,11 +64,23 @@
 						<a href="contact.php">Contact</a>
 					</li>
 					<li>
-						<a href="login.php">Login</a>
-					</li>
-					<li>
 						<a href="upload.php">Upload File</a>
 					</li>
+
+					<li>
+						<?php
+							if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true)
+							{
+								$username = $_SESSION["username"];
+								echo '<a href="logout.php">Log out of <em>' . $username . '</em></a>';
+							}
+							else
+							{
+								echo '<a href="login.php">Login</a>';
+							}
+						?>
+					</li>
+
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
