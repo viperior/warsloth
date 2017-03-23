@@ -35,16 +35,16 @@ footer {
 }
 
 .about-circle {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    font-size: 50px;
-    line-height: 200px;
+    font-size: 80px;
+    line-height: 300px;
     text-align: center;
     background: purple;
     color: white;
 	margin: 0 auto;
-	text-shadow: 0.05em 0.05em 0.05em black;
+	text-shadow: 0.03em 0.03em 0.15em black;
 }
 
 .circle {

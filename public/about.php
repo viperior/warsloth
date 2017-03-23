@@ -12,20 +12,17 @@
 	// get staff
 	$staff = $staffManager->getStaff($filter);
 	
-	function rand_r() {
-		return str_pad( dechex( mt_rand( 0, 0xFF ) ), 2, '0', STR_PAD_LEFT);
+	function rand_part($min, $max) {
+		return str_pad( dechex( mt_rand( $min, $max ) ), 2, '0', STR_PAD_LEFT);
 	}
 	
-	function rand_g() {
-		return str_pad( dechex( mt_rand( 0, 0xFF ) ), 2, '0', STR_PAD_LEFT);
-	}
-	
-	function rand_b() {
-		return str_pad( dechex( mt_rand( 0, 0xFF ) ), 2, '0', STR_PAD_LEFT);
-	}
-	
+	// Generate random 6 digit hexadecimal color
+	// To limit color palette (monochrome, only darks, only pastels, etc.), 
+	// adjust each color's min and max values. Full range of color is (O, 0xFF)
 	function rand_color() {
-		return rand_r() . rand_g() . rand_b();
+		return 	rand_part(0, 0xFF) 		//red
+				. rand_part(0, 0xFF) 	//green
+				. rand_part(0, 0xFF); 	//blue
 	}
 ?>
 
