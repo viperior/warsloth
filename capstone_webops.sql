@@ -64,6 +64,8 @@ CREATE TABLE `user` (
   `userID` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
+  `pin` int(4) DEFAULT NULL,
+  `hashed_pin` int(5) DEFAULT NULL,
   `trophyCode` varchar(255) DEFAULT NULL,
   `dateCreated` datetime DEFAULT NULL,
   `dateModified` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
@@ -74,7 +76,7 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'ceo', 'mysecretpassword', 'c66604a0-9acf-4129-aa8c-6b0df8958f8d', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
-INSERT INTO `user` VALUES ('2', 'admin', 'supersecurepassword', '23601841-6e29-45c6-b094-cd6bf4f22143', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
-INSERT INTO `user` VALUES ('3', 'test', 'password', '8740a775-77bc-4ac4-a14d-2f4b69c43231', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
-INSERT INTO `user` VALUES ('4', 'dashton', 'incorrect', '8740a775-77bc-4ac4-a14d-2f4b69c43235', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
+INSERT INTO `user` VALUES ('1', 'ceo', 'mysecretpassword', '2233', '17640', 'c66604a0-9acf-4129-aa8c-6b0df8958f8d', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
+INSERT INTO `user` VALUES ('2', 'admin', 'supersecurepassword', '8537', '40572', '23601841-6e29-45c6-b094-cd6bf4f22143', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
+INSERT INTO `user` VALUES ('3', 'test', 'password', '9629', '45864', '8740a775-77bc-4ac4-a14d-2f4b69c43231', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
+INSERT INTO `user` VALUES ('4', 'dashton', 'incorrect', '7532', '29988', '8740a775-77bc-4ac4-a14d-2f4b69c43235', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
