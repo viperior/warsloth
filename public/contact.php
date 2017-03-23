@@ -4,7 +4,7 @@
 	<div class="col-sm-12">
 		<h2>Contact Us</h2>
 		<address>
-			<strong>My Company</strong>
+			<strong>Cobra</strong>
 			<br>3481 Melrose Place
 			<br>Beverly Hills, CA 90210
 			<br>
@@ -12,7 +12,7 @@
 		<address>
 			<abbr title="Phone">P:</abbr>(123) 456-7890
 			<br>
-			<abbr title="Email">E:</abbr> <a href="mailto:#">name@example.com</a>
+			<abbr title="Email">E:</abbr> <a href="mailto:#">ceo@cobra.drwylie.com</a>
 		</address>
 	</div>
 </div>

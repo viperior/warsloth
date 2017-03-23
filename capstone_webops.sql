@@ -30,9 +30,8 @@ CREATE TABLE `review` (
 -- ----------------------------
 -- Records of review
 -- ----------------------------
-INSERT INTO `review` VALUES ('1', 'My Revew', 'Test 1', '2017-03-22 16:46:02');
-INSERT INTO `review` VALUES ('2', 'test 2', 'test 2', null);
-INSERT INTO `review` VALUES ('6', 'HTML Review', '<h1>BIG TEXT</h1>', null);
+INSERT INTO `review` VALUES ('1', 'Trustworthy and Discrete', 'Understands the importance of confidentiality, and can always be trusted not to reveal confidential or private information to unauthorized parties. Tries to copy, but with limited ability. Cobra enjoys working without supervision and usually continues to carry out duties effectively. Still needs to learn when it is appropriate to call for a client’s advice or authority to act. We lost several goals due to an incident, but we were swiftly compensated.', '2017-03-22 16:46:02');
+INSERT INTO `review` VALUES ('6', 'One Word to Describe Cobra', '<marquee behavior="alternate" loop="infinite"><h1>EXCELLENT</h1></marquee>', null);
 
 -- ----------------------------
 -- Table structure for `staff`
@@ -52,10 +51,10 @@ CREATE TABLE `staff` (
 -- ----------------------------
 -- Records of staff
 -- ----------------------------
-INSERT INTO `staff` VALUES ('1', 'Luke', 'Adair', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas massa quis lectus ornare dapibus. Ut porta est sed lectus blandit iaculis. Pellentesque quis magna id nisi mattis fringilla. Etiam bibendum egestas nisi sit amet fringilla. Maecena', null, '2017-03-22 18:08:37');
-INSERT INTO `staff` VALUES ('2', 'Johnathon', 'Stone', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas massa quis lectus ornare dapibus. Ut porta est sed lectus blandit iaculis. Pellentesque quis magna id nisi mattis fringilla. Etiam bibendum egestas nisi sit amet fringilla. Maecena', null, '2017-03-22 18:08:38');
-INSERT INTO `staff` VALUES ('3', 'Jay', 'Gossett', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas massa quis lectus ornare dapibus. Ut porta est sed lectus blandit iaculis. Pellentesque quis magna id nisi mattis fringilla. Etiam bibendum egestas nisi sit amet fringilla. Maecena', null, '2017-03-22 18:08:38');
-INSERT INTO `staff` VALUES ('4', 'Erik', 'Sanchez', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas massa quis lectus ornare dapibus. Ut porta est sed lectus blandit iaculis. Pellentesque quis magna id nisi mattis fringilla. Etiam bibendum egestas nisi sit amet fringilla. Maecena', null, '2017-03-22 18:08:39');
+INSERT INTO `staff` VALUES ('1', 'Cobra', 'Commander', 'Founder and CEO of Cobra, Cobra Commander is a hero and a scholar.', null, '2017-03-22 18:08:37');
+INSERT INTO `staff` VALUES ('2', 'Cooper', 'Dixon', 'Chief of Financial Services, Mr. Dixon is responsible for all financial affairs.', null, '2017-03-22 18:08:38');
+INSERT INTO `staff` VALUES ('3', 'Terra', 'Avis', 'Dr. Avis is a material science expert in charge of several confidential projects.', null, '2017-03-22 18:08:39');
+INSERT INTO `staff` VALUES ('4', 'Diane', 'Ashton', 'Martial arts expert and master ninja, Ms. Ashton is head of combat training internationally.', null, '2017-03-22 18:08:38');
 
 -- ----------------------------
 -- Table structure for `user`

@@ -7,7 +7,7 @@
 		$reviewManager->createReview($_POST["reviewTitle"], $_POST["reviewText"]);
 
 		// redirect to this page
-		header('Location: /services.php');
+		header('Location: services.php');
 		die();
 	}
 
@@ -16,13 +16,13 @@
 ?>
 
 <?php include "includes/header.php"; ?>
-	
+
 
 <div class="row">
 	<div class="col-sm-12">
 		<h2>Our Services</h2>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus laoreet ex quis porttitor. Pellentesque eu ligula vel massa hendrerit interdum. Sed ultricies, lorem eget ornare facilisis, libero lacus consequat lorem, sit amet volutpat ligula diam vel ipsum. Suspendisse rutrum tortor in lacinia vulputate. Curabitur in sem dapibus, porta diam sit amet, gravida sem. Sed consectetur aliquam volutpat. In vel neque sit amet sapien consequat pretium a nec massa.
+			Please leave a review of your service experience. We will do our best to assist you. You may embed a screenshot using the form below to add to your review. You may also upload a file that will be needed in your transaction with us.
 		</p>
 	</div>
 </div>
