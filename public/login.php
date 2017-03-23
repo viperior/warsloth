@@ -25,7 +25,6 @@
 		<form class="form-inline">
 			<div class="form-group">
 				<input id="pin-code-input" class="form-control" type="number" name="pin" />
-				<!--button class="btn btn-primary" type="submit" onclick="check_pin()">Login</button-->
 				<button class="btn" type="button" onclick="check_pin()">Login</button>
 				<p id="pin-code-feedback"></p>
 			</div>
@@ -34,6 +33,5 @@
 	</div>
 </div>
 <!-- /.row -->
-
 
 <?php include "includes/footer.php"; ?>
