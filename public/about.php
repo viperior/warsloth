@@ -57,7 +57,7 @@
 	
 	<?php while($row = $staff->fetch_assoc()) { ?>
 		<div class="col-sm-6">
-			<div class="about-circle" style="background-color: #<?php echo rand_color()?>"></div>
+			<div class="about-circle" style="background-color: #<?php echo rand_color()?>"><?php echo substr($row["firstname"], 0, 1) . substr($row["lastname"], 0, 1) ?></div>
 			<h2><?php echo $row["firstname"] . " " . $row["lastname"] ?></h2>
 			<p><?php echo $row["staffBio"] ?></p>
 		</div>
