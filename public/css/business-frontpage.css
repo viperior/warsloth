@@ -46,3 +46,11 @@ footer {
 	margin: 0 auto;
 	text-shadow: 0.05em 0.05em 0.05em black;
 }
+
+.circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; 
+    margin: 0 auto;
+    /* width and height can be anything, as long as they're equal */
+}
