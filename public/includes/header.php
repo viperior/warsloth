@@ -83,7 +83,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class="tagline">Oppurtunity From Chaos</h1>
+						<!--h1 class="tagline">Oppurtunity From Chaos</h1-->
 					</div>
 				</div>
 			</div>

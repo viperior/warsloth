@@ -12,7 +12,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url('../img/cobra-header.png') center center no-repeat scroll;
+    background: url('../img/header.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -50,7 +50,26 @@ footer {
 .circle {
     border-radius: 50%;
     width: 300px;
-    height: 300px; 
+    height: 300px;
     margin: 0 auto;
     /* width and height can be anything, as long as they're equal */
+}
+
+.vignette {
+  background: url("http://lorempixum.com/400/200/nature/5");
+  width: 400px; height: 200px;
+  -webkit-box-shadow:
+    		inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+
+     -moz-box-shadow:
+    		inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
+
+          box-shadow:
+    		inset 0 0 50px #000,
+                inset 0 0 50px #000,
+                inset 0 0 50px #000;
 }
