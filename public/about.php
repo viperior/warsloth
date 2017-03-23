@@ -11,13 +11,13 @@
 
 	// get staff
 	$staff = $staffManager->getStaff($filter);
-	
+
 	function rand_part($min, $max) {
 		return str_pad( dechex( mt_rand( $min, $max ) ), 2, '0', STR_PAD_LEFT);
 	}
-	
+
 	// Generate random 6 digit hexadecimal color
-	// To limit color palette (monochrome, only darks, only pastels, etc.), 
+	// To limit color palette (monochrome, only darks, only pastels, etc.),
 	// adjust each color's min and max values. Full range of color is (O, 0xFF)
 	function rand_color() {
 		return 	rand_part(0, 0xFF) 		//red
@@ -34,7 +34,10 @@
 	<div class="col-sm-12">
 		<h2>About Us</h2>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus laoreet ex quis porttitor. Pellentesque eu ligula vel massa hendrerit interdum. Sed ultricies, lorem eget ornare facilisis, libero lacus consequat lorem, sit amet volutpat ligula diam vel ipsum. Suspendisse rutrum tortor in lacinia vulputate. Curabitur in sem dapibus, porta diam sit amet, gravida sem. Sed consectetur aliquam volutpat. In vel neque sit amet sapien consequat pretium a nec massa.
+			Cobra holisticly facilitates efficient niche markets. We are progressive, future-proof, mesh-proof, and web-ready. Our soldiers are trained to handle any of your business needs.
+		</p>
+		<p>
+			Meet the members of the Cobra corporate family below.
 		</p>
 	</div>
 </div>
@@ -51,7 +54,7 @@
 		</form>
 		<hr/>
 	</div>
-	
+
 	<?php while($row = $staff->fetch_assoc()) { ?>
 		<div class="col-sm-6">
 			<div class="about-circle" style="background-color: #<?php echo rand_color()?>"><?php echo substr($row["firstname"], 0, 1) . substr($row["lastname"], 0, 1) ?></div>

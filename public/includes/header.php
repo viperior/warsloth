@@ -67,19 +67,18 @@
 						<a href="upload.php">Upload File</a>
 					</li>
 
-					<li>
-						<?php
-							if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true)
-							{
-								$username = $_SESSION["username"];
-								echo '<a href="logout.php">Log out of <em>' . $username . '</em></a>';
-							}
-							else
-							{
-								echo '<a href="login.php">Login</a>';
-							}
-						?>
-					</li>
+					<?php
+						if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true)
+						{
+							echo '<li><a href="account.php">Account</a></li>';
+							$username = $_SESSION["username"];
+							echo '<li><a href="logout.php">Log out</a></li>';
+						}
+						else
+						{
+							echo '<li><a href="login.php">Login</a></li>';
+						}
+					?>
 
 				</ul>
 			</div>

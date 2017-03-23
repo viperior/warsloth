@@ -8,7 +8,7 @@
 
 <div class="row">
 	<div class="col-sm-12">
-		<h2>You have been logged out.</h2>
+		<h2>You have been logged out. <a href="login.php">Log in again.</a></h2>
 	</div>
 </div>
 <!-- /.row -->
