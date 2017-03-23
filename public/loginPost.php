@@ -48,7 +48,9 @@
 			}
 			else
 			{
-				echo '<p>Login failed! Maybe your login details were not correct.</p>';
+				echo '
+					<p>Login failed! Maybe your login details were not correct. <a href="login.php">Try again.</a></p>
+				';
 			}
 		?>
 
