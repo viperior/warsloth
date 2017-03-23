@@ -11,9 +11,26 @@
 
 	// get staff
 	$staff = $staffManager->getStaff($filter);
+	
+	function rand_r() {
+		return str_pad( dechex( mt_rand( 0, 0xFF ) ), 2, '0', STR_PAD_LEFT);
+	}
+	
+	function rand_g() {
+		return str_pad( dechex( mt_rand( 0, 0xFF ) ), 2, '0', STR_PAD_LEFT);
+	}
+	
+	function rand_b() {
+		return str_pad( dechex( mt_rand( 0, 0xFF ) ), 2, '0', STR_PAD_LEFT);
+	}
+	
+	function rand_color() {
+		return rand_r() . rand_g() . rand_b();
+	}
 ?>
 
 <?php include "includes/header.php"; ?>
+
 
 
 <div class="row">
@@ -37,14 +54,14 @@
 		</form>
 		<hr/>
 	</div>
+	
 	<?php while($row = $staff->fetch_assoc()) { ?>
 		<div class="col-sm-6">
-			<img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+			<div class="about-circle" style="background-color: #<?php echo rand_color()?>"></div>
 			<h2><?php echo $row["firstname"] . " " . $row["lastname"] ?></h2>
 			<p><?php echo $row["staffBio"] ?></p>
 		</div>
 	<?php } ?>
 </div>
-
 
 <?php include "includes/footer.php"; ?>
