@@ -33,3 +33,16 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.about-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 200px;
+    text-align: center;
+    background: purple;
+    color: white;
+	margin: 0 auto;
+	text-shadow: 0.05em 0.05em 0.05em black;
+}
