@@ -56,9 +56,79 @@ footer {
     /* width and height can be anything, as long as they're equal */
 }
 
-/********************************
- *       Team Cobra Style       *
- ********************************/
+.well h2 {
+	margin-top: 2px;
+}
+
+/* ******************************
+*          Upload File          *
+****************************** */
+.selectFile {
+    position: relative;
+    overflow: hidden;
+	margin: 0 10px 0 0;
+	display:table-cell;
+}
+.selectFile input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+label {
+	margin: 0;
+	font-weight: normal;
+}
+
+#uploadSubmit {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+#upload-background {
+	background-color: white;
+    border: 1px solid #00dddd;
+    padding: 10px 0;
+	margin-left: 15px;
+	display:table;
+	border-spacing: 10px 0;
+}
+
+#displayFile input {
+	display:table-cell;
+	width: 100%;
+	padding:0;
+	height: 100%
+}
+
+#displayFile {
+	padding: 0;
+	padding-left: 10px;
+	display: inline-block;
+	height: 32px;
+	width: 100%;
+}
+
+.btn {
+	vertical-align: bottom;
+}
+/* Login Page */
+#login button {
+	vertical-align: bottom;
+}
+
+
+/******************************************
+ *         Individual Team Styles         *
+ ******************************************/
+ 
+ /************ Team Cobra *************/
 #cobra {
 	background-color: rgb(23, 108, 24);
 	color: #d2ffd3;
@@ -82,9 +152,9 @@ footer {
 
 /* Header */
 #cobra .business-header {
-	background: url(../img/header.jpg) center center no-repeat scroll;
+	background: url(../img/cobra.jpg) center center no-repeat scroll;
 	background-size: auto 100%;
-	background-color: #000;
+	background-color: #000a00;
 	
 }
 
@@ -110,13 +180,14 @@ footer {
 #cobra .btn {
 	background-color: #31ff3f;
     color: #333;
-    border: 0;
+    border: 1px solid #31ff3f;
 }
 
 #cobra .btn-default:hover, 
 #cobra .btn:hover {
 	background-color: #000;
     color: #36c53d;
+	border: 1px solid #000;
 }
 
 /* Index page circle icons */
@@ -126,12 +197,28 @@ footer {
 
 #cobra .well, 
 #cobra .form-control {
-	color: #000;
+	background-color: #013300;
+	border-color: #a2eaa0;
+	color: #fff;
 }
 
-/********************************
- *    Team Motherbrain Style    *
- ********************************/
+#cobra .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+/* Upload page */
+#cobra #upload-background {
+	background-color: #013300;
+    border: 1px solid #90ff85;
+}
+
+#cobra #displayFile {
+	background-color: black;
+    color: white;
+    border: 1px solid #00dd00;
+}
+
+/********** Team Motherbrain **********/
 #motherbrain {
 	background-color: rgb(209, 253, 255);
 }
@@ -201,9 +288,7 @@ footer {
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(30, 200, 200, 0.6);
 }
 
-/********************************
- *    Team RedFalcon Style    *
- ********************************/
+/*********** Team RedFalcon ************/
 #redfalcon {
 	background-color: #ffa973;
 }

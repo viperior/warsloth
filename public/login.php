@@ -8,7 +8,7 @@
 
 
 		<form action="loginPost.php" method="post">
-			<div class="form-group">
+			<div class="form-group" id="login">
 				<!-- test user: test:password -->
 				<label>Username<br/>
 					<input class="form-control" type="text" name="username" />
