@@ -64,36 +64,70 @@ footer {
 	color: #d2ffd3;
 }
 
+/* Navigation */
 #cobra .navbar {
 	background-color: #013300;
 	border-color: #a2eaa0;
 }
 
-#cobra .navbar-brand, #cobra .navbar-nav>li>a {
+#cobra .navbar-brand, 
+#cobra .navbar-nav>li>a {
 	color: #9feda1;
 }
 
-#cobra .navbar-brand:hover, #cobra .navbar-nav>li>a:hover {
+#cobra .navbar-brand:hover, 
+#cobra .navbar-nav>li>a:hover {
 	color: #fff;
 }
 
-#cobra .btn-default, #cobra .btn {
-	background-color: #8ff496;
-	color: #333;
+/* Header */
+#cobra .business-header {
+	background: url(../img/header.jpg) center center no-repeat scroll;
+	background-size: auto 100%;
+	background-color: #000;
+	
 }
 
-#cobra .btn-default:hover, #cobra .btn:hover {
-	background-color: #35f933;
+/* Horizontal Rule */
+#cobra hr {
+	border-color: #7ffc7a;
+}
+/* Heading Text */
+#cobra h1, 
+#cobra h2 {
+    color: #44ff3d;
+    text-shadow: 0.02em 0.02em 0.01em #000548;
 }
 
-#cobra a, #cobra span.gc-cs-link {
+/* Links */
+#cobra a, 
+#cobra span.gc-cs-link {
     color: #0dff1b;
 }
 
+/* Buttons */
+#cobra .btn-default, 
+#cobra .btn {
+	background-color: #31ff3f;
+    color: #333;
+    border: 0;
+}
+
+#cobra .btn-default:hover, 
+#cobra .btn:hover {
+	background-color: #000;
+    color: #36c53d;
+}
+
+/* Index page circle icons */
 #cobra .img-circle {
 	background-color: #002600;
 }
 
+#cobra .well, 
+#cobra .form-control {
+	color: #000;
+}
 
 /********************************
  *    Team Motherbrain Style    *
@@ -102,34 +136,150 @@ footer {
 	background-color: rgb(209, 253, 255);
 }
 
+/* Navigation */
 #motherbrain .navbar {
 	background-color: #018d82;
 	border-color: #6ce7ee;
 }
 
-#motherbrain .navbar-brand, #motherbrain .navbar-nav>li>a {
+#motherbrain .navbar-brand, 
+#motherbrain .navbar-nav>li>a {
 	color:#81f6ff;
 }
 
-#motherbrain .navbar-brand:hover, #cobra .navbar-nav>li>a:hover {
+#motherbrain .navbar-brand:hover, 
+#motherbrain .navbar-nav>li>a:hover {
 	color: #fff;
 }
 
+/* Header */
 #motherbrain .business-header {
 	background: url(../img/motherbrain.jpg) center center no-repeat scroll;
-	background-size:contain;
+	background-size: auto 100%;
 	background-color: #001214;
 	
 }
 
-#motherbrain .btn-default, #motherbrain .btn {
-	background-color: #55bfc4;
-	color: #333;
+/* Horizontal Rule */
+#motherbrain hr {
+	border-color:rgba(0, 159, 149, 0.5);
 }
 
-#motherbrain .btn-default:hover, #motherbrain .btn:hover {
-	background-color:#6ce7ee
+/* Buttons */
+#motherbrain .btn-default, 
+#motherbrain .btn {
+	background-color: #004e53;
+    color: #9dfbff;
+	border:0;
 }
+
+#motherbrain .btn-default:hover, 
+#motherbrain .btn:hover {
+	background-color: #000;
+    color: #9dfbff;
+}
+
+/* Link Text */
+#motherbrain a, 
+#motherbrain span.gc-cs-link {
+    color: #0100b7;
+}
+
+/* Icon Circles */
 #motherbrain .img-circle {
 	background-color: #01aba0;
 }
+
+/* Text Boxes */
+#motherbrain .well, 
+#motherbrain .form-control {
+	background-color: rgba(255, 255, 255, 0.25);
+	border-color: #00dade;
+}
+
+#motherbrain .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(30, 200, 200, 0.6);
+}
+
+/********************************
+ *    Team RedFalcon Style    *
+ ********************************/
+#redfalcon {
+	background-color: #ffa973;
+}
+
+/* Navigation */
+#redfalcon .navbar {
+	font-size: larger;
+    font-weight: bolder;
+	background-color: #690004;
+    border-color: #fd4d33;
+    text-shadow: 0.05em 0.05em 0.1em #000;
+}
+
+#redfalcon .navbar-brand, 
+#redfalcon .navbar-nav>li>a {
+	color:#f00;
+}
+
+#redfalcon .navbar-brand:hover, 
+#redfalcon .navbar-nav>li>a:hover {
+	color: #ff8f66;
+	text-shadow: 0.05em 0.05em 0.1em #800;
+}
+
+/* Header */
+#redfalcon .business-header {
+	background: url(../img/redfalcon.jpg) center center no-repeat scroll;
+	background-size:contain;
+	background-color: #130002;
+	
+}
+
+/* Heading Text */
+#redfalcon h1, #redfalcon h2 {
+    color: #e30000;
+    text-shadow: 0.02em 0.02em 0.01em #740000;
+}
+
+/* Link Text */
+#redfalcon a, 
+#redfalcon span.gc-cs-link {
+    color: #c20007;
+}
+
+/* Horizontal Rule */
+#redfalcon hr {
+	border-color:rgb(255, 200, 189);
+}
+
+/* Buttons */
+#redfalcon .btn-default, 
+#redfalcon .btn {
+	background-color: #810a0a;
+	color: #fff;
+	border:0;
+}
+
+#redfalcon .btn-default:hover, 
+#redfalcon .btn:hover {
+	background-color:#f00;
+}
+
+/* Index Page Circles */
+#redfalcon .img-circle {
+	background-color: #810a0a;
+}
+
+/* Text Boxes */
+#redfalcon .well, 
+#redfalcon .form-control {
+	background-color: rgba(248, 255, 216, 0.56);
+	border-color: rgba(251, 0, 10, 0.23);
+}
+
+#redfalcon .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+
