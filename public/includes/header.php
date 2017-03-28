@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body id="cobra">
 
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

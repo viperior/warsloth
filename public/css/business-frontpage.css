@@ -34,6 +34,7 @@ footer {
     margin: 50px 0;
 }
 
+/* Circle background behind user initials on About page */
 .about-circle {
     width: 300px;
     height: 300px;
@@ -53,4 +54,82 @@ footer {
     height: 300px;
     margin: 0 auto;
     /* width and height can be anything, as long as they're equal */
+}
+
+/********************************
+ *       Team Cobra Style       *
+ ********************************/
+#cobra {
+	background-color: rgb(23, 108, 24);
+	color: #d2ffd3;
+}
+
+#cobra .navbar {
+	background-color: #013300;
+	border-color: #a2eaa0;
+}
+
+#cobra .navbar-brand, #cobra .navbar-nav>li>a {
+	color: #9feda1;
+}
+
+#cobra .navbar-brand:hover, #cobra .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+#cobra .btn-default, #cobra .btn {
+	background-color: #8ff496;
+	color: #333;
+}
+
+#cobra .btn-default:hover, #cobra .btn:hover {
+	background-color: #35f933;
+}
+
+#cobra a, #cobra span.gc-cs-link {
+    color: #0dff1b;
+}
+
+#cobra .img-circle {
+	background-color: #002600;
+}
+
+
+/********************************
+ *    Team Motherbrain Style    *
+ ********************************/
+#motherbrain {
+	background-color: rgb(209, 253, 255);
+}
+
+#motherbrain .navbar {
+	background-color: #018d82;
+	border-color: #6ce7ee;
+}
+
+#motherbrain .navbar-brand, #motherbrain .navbar-nav>li>a {
+	color:#81f6ff;
+}
+
+#motherbrain .navbar-brand:hover, #cobra .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+#motherbrain .business-header {
+	background: url(../img/motherbrain.jpg) center center no-repeat scroll;
+	background-size:contain;
+	background-color: #001214;
+	
+}
+
+#motherbrain .btn-default, #motherbrain .btn {
+	background-color: #55bfc4;
+	color: #333;
+}
+
+#motherbrain .btn-default:hover, #motherbrain .btn:hover {
+	background-color:#6ce7ee
+}
+#motherbrain .img-circle {
+	background-color: #01aba0;
 }
