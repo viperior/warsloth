@@ -12,7 +12,7 @@
 		<address>
 			<abbr title="Phone">P:</abbr>(123) 456-7890
 			<br>
-			<abbr title="Email">E:</abbr> <a href="mailto:#">ceo@cobra.drwylie.com</a>
+			<abbr title="Email">E:</abbr> <a href="mailto:ceo@cobra.com">ceo@cobra.com</a>
 		</address>
 	</div>
 </div>
