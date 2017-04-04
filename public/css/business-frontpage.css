@@ -36,16 +36,21 @@ footer {
 
 /* Circle background behind user initials on About page */
 .about-circle {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    font-size: 80px;
-    line-height: 300px;
+    float: left;
+    font-size: 36px;
+    line-height: 100px;
     text-align: center;
     background: purple;
     color: white;
-	margin: 0 auto;
-	text-shadow: 0.03em 0.03em 0.15em black;
+	  margin: 0 16px 16px 0;
+	  text-shadow: 0.03em 0.03em 0.15em black;
+}
+
+.about-us-profiles h2 {
+  margin-top: 8px;
 }
 
 .circle {
@@ -124,7 +129,7 @@ label {
 /******************************************
  *         Individual Team Styles         *
  ******************************************/
- 
+
  /************ Team Cobra *************/
 #cobra {
 	background-color: rgb(23, 108, 24);
@@ -137,12 +142,12 @@ label {
 	border-color: #a2eaa0;
 }
 
-#cobra .navbar-brand, 
+#cobra .navbar-brand,
 #cobra .navbar-nav>li>a {
 	color: #63ff67;
 }
 
-#cobra .navbar-brand:hover, 
+#cobra .navbar-brand:hover,
 #cobra .navbar-nav>li>a:hover {
 	color: #fff;
 }
@@ -152,7 +157,7 @@ label {
 	background: url(../img/cobra.jpg) center center no-repeat scroll;
 	background-size: auto 100%;
 	background-color: #000a00;
-	
+
 }
 
 /* Horizontal Rule */
@@ -160,27 +165,27 @@ label {
 	border-color: #7ffc7a;
 }
 /* Heading Text */
-#cobra h1, 
+#cobra h1,
 #cobra h2 {
     color: #44ff3d;
     text-shadow: 0.02em 0.02em 0.01em #000548;
 }
 
 /* Links */
-#cobra a, 
+#cobra a,
 #cobra span.gc-cs-link {
     color: #0dff1b;
 }
 
 /* Buttons */
-#cobra .btn-default, 
+#cobra .btn-default,
 #cobra .btn {
 	background-color: #31ff3f;
     color: #333;
     border: 1px solid #31ff3f;
 }
 
-#cobra .btn-default:hover, 
+#cobra .btn-default:hover,
 #cobra .btn:hover {
 	background-color: #000;
     color: #0dff1b;
@@ -193,11 +198,10 @@ label {
 }
 
 /* Forms */
-
-#cobra .well, 
+#cobra .well,
 #cobra .form-control {
 	background-color: #013300;
-	border-color: #a2eaa0;
+    border: 1px solid #90ff85;
 	color: #fff;
 }
 
@@ -242,12 +246,12 @@ label {
 	border-color: #6ce7ee;
 }
 
-#motherbrain .navbar-brand, 
+#motherbrain .navbar-brand,
 #motherbrain .navbar-nav>li>a {
 	color:#81f6ff;
 }
 
-#motherbrain .navbar-brand:hover, 
+#motherbrain .navbar-brand:hover,
 #motherbrain .navbar-nav>li>a:hover {
 	color: #fff;
 }
@@ -257,7 +261,7 @@ label {
 	background: url(../img/motherbrain.jpg) center center no-repeat scroll;
 	background-size: auto 100%;
 	background-color: #001214;
-	
+
 }
 
 /* Horizontal Rule */
@@ -266,14 +270,14 @@ label {
 }
 
 /* Buttons */
-#motherbrain .btn-default, 
+#motherbrain .btn-default,
 #motherbrain .btn {
 	background-color: #004e53;
     color: #9dfbff;
 	border: 1px solid #004e53;
 }
 
-#motherbrain .btn-default:hover, 
+#motherbrain .btn-default:hover,
 #motherbrain .btn:hover {
 	background-color: #000;
     color: #9dfbff;
@@ -281,7 +285,7 @@ label {
 }
 
 /* Link Text */
-#motherbrain a, 
+#motherbrain a,
 #motherbrain span.gc-cs-link {
     color: #0100b7;
 }
@@ -291,8 +295,8 @@ label {
 	background-color: #01aba0;
 }
 
-/* Forms */
-#motherbrain .well, 
+/* Text Boxes */
+#motherbrain .well,
 #motherbrain .form-control {
 	background-color: rgba(255, 255, 255, 0.25);
 	border-color: #00dade;
@@ -316,12 +320,12 @@ label {
     text-shadow: 0.05em 0.05em 0.1em #000;
 }
 
-#redfalcon .navbar-brand, 
+#redfalcon .navbar-brand,
 #redfalcon .navbar-nav>li>a {
 	color:#f00;
 }
 
-#redfalcon .navbar-brand:hover, 
+#redfalcon .navbar-brand:hover,
 #redfalcon .navbar-nav>li>a:hover {
 	color: #ff8f66;
 	text-shadow: 0.05em 0.05em 0.1em #800;
@@ -332,7 +336,7 @@ label {
 	background: url(../img/redfalcon.jpg) center center no-repeat scroll;
 	background-size:contain;
 	background-color: #130002;
-	
+
 }
 
 /* Heading Text */
@@ -342,7 +346,7 @@ label {
 }
 
 /* Link Text */
-#redfalcon a, 
+#redfalcon a,
 #redfalcon span.gc-cs-link {
     color: #c20007;
 }
@@ -353,14 +357,14 @@ label {
 }
 
 /* Buttons */
-#redfalcon .btn-default, 
+#redfalcon .btn-default,
 #redfalcon .btn {
 	background-color: #ab0104;
 	color: #fff;
 	border: 1px solid #ab0104;
 }
 
-#redfalcon .btn-default:hover, 
+#redfalcon .btn-default:hover,
 #redfalcon .btn:hover {
 	background-color:#f00;
 	border: 1px solid #f00;
@@ -371,8 +375,8 @@ label {
 	background-color: #810a0a;
 }
 
-/* Forms */
-#redfalcon .well, 
+/* Text Boxes */
+#redfalcon .well,
 #redfalcon .form-control {
 	background-color: rgba(248, 255, 216, 0.56);
 	border-color: rgba(251, 0, 10, 0.23);
@@ -483,4 +487,3 @@ label {
     color: #ffc670;
     border: 1px solid #c78f31;
 }
-

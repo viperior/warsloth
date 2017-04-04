@@ -43,7 +43,7 @@
 </div>
 <hr/>
 
-<div class="row">
+<div class="row about-us-profiles">
 	<div class="col-sm-12">
 		<form action="" method="post">
 			<label>
