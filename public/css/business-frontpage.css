@@ -199,7 +199,8 @@ label {
 
 /* Forms */
 #cobra .well,
-#cobra .form-control {
+#cobra .form-control,
+#cobra .jumbotron {
 	background-color: #013300;
     border: 1px solid #90ff85;
 	color: #fff;
@@ -287,7 +288,7 @@ label {
 /* Link Text */
 #motherbrain a,
 #motherbrain span.gc-cs-link {
-    color: #0100b7;
+    color: #0074b7;
 }
 
 /* Icon Circles */
@@ -295,11 +296,12 @@ label {
 	background-color: #01aba0;
 }
 
-/* Text Boxes */
+/* Forms */
 #motherbrain .well,
-#motherbrain .form-control {
+#motherbrain .form-control,
+#motherbrain .jumbotron {
 	background-color: rgba(255, 255, 255, 0.25);
-	border-color: #00dade;
+	border: 1px solid #00dade;
 }
 
 #motherbrain .form-control:focus {
@@ -375,9 +377,10 @@ label {
 	background-color: #810a0a;
 }
 
-/* Text Boxes */
+/* Forms */
 #redfalcon .well,
-#redfalcon .form-control {
+#redfalcon .form-control,
+#redfalcon .jumbotron {
 	background-color: rgba(248, 255, 216, 0.56);
 	border-color: rgba(251, 0, 10, 0.23);
 }
@@ -467,10 +470,26 @@ label {
 
 /* Forms */
 #footclan .well, 
-#footclan .form-control {
+#footclan .form-control,
+#footclan .jumbotron {
 	background-color: rgba(63, 11, 11, 0.71);
     border-color: rgb(63, 11, 11);
     color: #fff39c;
+}
+
+#footclan .well h1, 
+#footclan .form-control h1,
+#footclan .jumbotron h1,
+#footclan .well h2, 
+#footclan .form-control h2,
+#footclan .jumbotron h2 {
+	color: #ffeecf;
+}
+
+#footclan .well a,
+#footclan .form-control a,
+#footclan .jumbotron a {
+	color: rgb(255, 156, 58);
 }
 
 #footclan .form-control:focus {
@@ -486,4 +505,93 @@ label {
     background-color: #482b0f;
     color: #ffc670;
     border: 1px solid #c78f31;
+}
+
+/********** Team Decepticons **********/
+#decepticons {
+	background-color: rgb(220, 206, 255);
+}
+
+#decepticons h1, 
+#decepticons h2 {
+    color: #000000;
+    text-shadow: 0.05em 0.03em 0.13em #a543ff;
+}
+
+/* Navigation */
+#decepticons .navbar {
+	background-color: #301572;
+    border-color: #7846ff;
+}
+
+#decepticons .navbar-brand, 
+#decepticons .navbar-nav>li>a {
+	color: #ede0ff;
+}
+
+#decepticons .navbar-brand:hover, 
+#decepticons .navbar-nav>li>a:hover {
+	color: #e394ff;
+}
+
+/* Header */
+#decepticons .business-header {
+	background: url(../img/decepticons.jpg) center center no-repeat scroll;
+	background-size: auto 100%;
+	background-color: #130a01;
+	
+}
+
+/* Horizontal Rule */
+#decepticons hr {
+	border-color:rgba(0, 159, 149, 0.5);
+}
+
+/* Buttons */
+#decepticons .btn-default,
+#decepticons .btn {
+    background-color: #301572;
+    color: #ffffff;
+    border: 1px solid #301572;
+}
+
+#decepticons .btn-default:hover,
+#decepticons .btn:hover {
+    background-color: #5c3ea8;
+    color: #ffffff;
+    border: 1px solid #5c3ea8;
+}
+
+/* Link Text */
+#decepticons a,
+#decepticons span.gc-cs-link {
+    color: #504fc3;
+}
+
+/* Icon Circles */
+#decepticons .img-circle {
+    background-color: #9dc94b;
+    filter: invert(100%);
+}
+
+/* Text Boxes */
+#decepticons .well,
+#decepticons .form-control,
+#decepticons .jumbotron {
+	background-color: rgba(255, 255, 255, 0.25);
+	border-color: #af8fff;
+}
+
+#decepticons .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(30, 200, 200, 0.6);
+}
+
+#decepticons #upload-background {
+    background-color: #a48dd9;
+    border: 1px solid #301572;
+}
+
+#decepticons #displayFile {
+background-color: #dcceff;
+    border: 1px solid #6d53ac;
 }
