@@ -8,7 +8,7 @@
 			if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true)
 			{
 				$username = $_SESSION["username"];
-				echo '<p>Welcome to your personal Cobra account, ' . $username . '.</p>';
+				echo '<p>Welcome to your personal ' . $companyName . ' account, ' . $username . '.</p>';
 			}
 			else
 			{

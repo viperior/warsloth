@@ -34,10 +34,10 @@
 	<div class="col-sm-12">
 		<h2>About Us</h2>
 		<p>
-			Cobra holisticly facilitates efficient niche markets. We are progressive, future-proof, mesh-proof, and web-ready. Our soldiers are trained to handle any of your business needs.
+			<?php echo $companyName ?> holisticly facilitates efficient niche markets. We are progressive, future-proof, mesh-proof, and web-ready. Our soldiers are trained to handle any of your business needs.
 		</p>
 		<p>
-			Meet the members of the Cobra corporate family below.
+			Meet the members of the <?php echo $companyName ?> corporate family below.
 		</p>
 	</div>
 </div>
