@@ -111,17 +111,14 @@ label {
 	padding: 0;
 	padding-left: 10px;
 	display: inline-block;
-	height: 32px;
+	height: 34px;
 	width: 100%;
 }
 
 .btn {
 	vertical-align: bottom;
 }
-/* Login Page */
-#login button {
-	vertical-align: bottom;
-}
+
 
 
 /******************************************
@@ -142,7 +139,7 @@ label {
 
 #cobra .navbar-brand, 
 #cobra .navbar-nav>li>a {
-	color: #9feda1;
+	color: #63ff67;
 }
 
 #cobra .navbar-brand:hover, 
@@ -186,7 +183,7 @@ label {
 #cobra .btn-default:hover, 
 #cobra .btn:hover {
 	background-color: #000;
-    color: #36c53d;
+    color: #0dff1b;
 	border: 1px solid #000;
 }
 
@@ -194,6 +191,8 @@ label {
 #cobra .img-circle {
 	background-color: #002600;
 }
+
+/* Forms */
 
 #cobra .well, 
 #cobra .form-control {
@@ -210,6 +209,20 @@ label {
 #cobra #upload-background {
 	background-color: #013300;
     border: 1px solid #90ff85;
+}
+
+#cobra .selectFile, 
+#cobra .selectFile {
+	background-color: #1de127;
+	color: #000;
+	border: 1px solid #1de127;
+}
+
+#cobra .selectFile:hover, 
+#cobra .selectFile:hover {
+	background-color: #5fff6a;
+	color: #000;
+	border: 1px solid #5fff6a;
 }
 
 #cobra #displayFile {
@@ -257,13 +270,14 @@ label {
 #motherbrain .btn {
 	background-color: #004e53;
     color: #9dfbff;
-	border:0;
+	border: 1px solid #004e53;
 }
 
 #motherbrain .btn-default:hover, 
 #motherbrain .btn:hover {
 	background-color: #000;
     color: #9dfbff;
+	border: 1px solid #000;
 }
 
 /* Link Text */
@@ -277,7 +291,7 @@ label {
 	background-color: #01aba0;
 }
 
-/* Text Boxes */
+/* Forms */
 #motherbrain .well, 
 #motherbrain .form-control {
 	background-color: rgba(255, 255, 255, 0.25);
@@ -341,14 +355,15 @@ label {
 /* Buttons */
 #redfalcon .btn-default, 
 #redfalcon .btn {
-	background-color: #810a0a;
+	background-color: #ab0104;
 	color: #fff;
-	border:0;
+	border: 1px solid #ab0104;
 }
 
 #redfalcon .btn-default:hover, 
 #redfalcon .btn:hover {
 	background-color:#f00;
+	border: 1px solid #f00;
 }
 
 /* Index Page Circles */
@@ -356,7 +371,7 @@ label {
 	background-color: #810a0a;
 }
 
-/* Text Boxes */
+/* Forms */
 #redfalcon .well, 
 #redfalcon .form-control {
 	background-color: rgba(248, 255, 216, 0.56);
@@ -367,4 +382,105 @@ label {
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
+/* Upload page */
+#redfalcon #upload-background {
+	background-color: #000;
+    border: 1px solid red;
+}
+
+#redfalcon #displayFile {
+	background-color: #360000;
+    color: white;
+    border: 1px solid red;
+}
+
+/********** Team Footclan **********/
+#footclan {
+	background-color: rgb(241, 178, 65);
+}
+
+#footclan h1, 
+#footclan h2 {
+    color: #000000;
+    text-shadow: 0.05em 0.03em 0.13em #ffa22f;
+}
+
+/* Navigation */
+#footclan .navbar {
+	background-color: #552a00;
+    border-color: #f4b840;
+}
+
+#footclan .navbar-brand, 
+#footclan .navbar-nav>li>a {
+	color:#ffd47f;
+}
+
+#footclan .navbar-brand:hover, 
+#footclan .navbar-nav>li>a:hover {
+	color: #ffab14;
+}
+
+/* Header */
+#footclan .business-header {
+	background: url(../img/footclan.jpg) center center no-repeat scroll;
+	background-size: auto 100%;
+	background-color: #130a01;
+	
+}
+
+/* Horizontal Rule */
+#footclan hr {
+	border-color:rgba(176, 42, 0, 0.55);
+}
+
+/* Buttons */
+#footclan .btn-default, 
+#footclan .btn {
+	background-color: #130a01;
+    color: #ffaa29;
+    border: 1px solid #130a01;
+}
+
+#footclan .btn-default:hover, 
+#footclan .btn:hover {
+	background-color: #542a05;
+    color: #ffaa29;
+    border: 1px solid #542a05;
+}
+
+/* Link Text */
+#footclan a, 
+#footclan span.gc-cs-link {
+    color: #ce0000;
+}
+
+/* Icon Circles */
+#footclan .img-circle {
+	background-color: #58a1e7;
+    filter: invert(100%);
+}
+
+/* Forms */
+#footclan .well, 
+#footclan .form-control {
+	background-color: rgba(63, 11, 11, 0.71);
+    border-color: rgb(63, 11, 11);
+    color: #fff39c;
+}
+
+#footclan .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(162, 104, 47);
+}
+
+#footclan #upload-background {
+    background-color: #98581a;
+    border: 1px solid #552a00;
+}
+
+#footclan #displayFile {
+    background-color: #482b0f;
+    color: #ffc670;
+    border: 1px solid #c78f31;
+}
 
