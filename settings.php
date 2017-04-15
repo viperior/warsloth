@@ -13,27 +13,27 @@
 	// Cobra
 	$settings['cobra']['companyName'] = "Cobra";
 	$settings['cobra']['companyBodyClass'] = "cobra";
-	$settings['cobra']['ceoEmail'] = "ceo@cobra.com";
+	$settings['cobra']['ceoEmail'] = "admin@cobra.com";
 
 	// Motherbrain
 	$settings['motherbrain']['companyName'] = "Motherbrain";
 	$settings['motherbrain']['companyBodyClass'] = "motherbrain";
-	$settings['motherbrain']['ceoEmail'] = "ceo@motherbrain.com";
+	$settings['motherbrain']['ceoEmail'] = "admin@motherbrain.com";
 
 	// Red Falcon
 	$settings['redfalcon']['companyName'] = "Red Falcon";
 	$settings['redfalcon']['companyBodyClass'] = "redfalcon";
-	$settings['redfalcon']['ceoEmail'] = "ceo@redfalcon.com";
+	$settings['redfalcon']['ceoEmail'] = "admin@redfalcon.com";
 
 	// Foot Clan
 	$settings['footclan']['companyName'] = "Foot Clan";
 	$settings['footclan']['companyBodyClass'] = "footclan";
-	$settings['footclan']['ceoEmail'] = "ceo@footclan.com";
+	$settings['footclan']['ceoEmail'] = "admin@footclan.com";
 
 	// Decepticons
 	$settings['decepticons']['companyName'] = "Decepticons";
 	$settings['decepticons']['companyBodyClass'] = "decepticons";
-	$settings['decepticons']['ceoEmail'] = "ceo@decepticons.com";
+	$settings['decepticons']['ceoEmail'] = "admin@decepticons.com";
 
 	// init settings
 	$companyName = $settings[$team]['companyName'];
