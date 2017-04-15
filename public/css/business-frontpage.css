@@ -216,14 +216,14 @@ label {
     border: 1px solid #90ff85;
 }
 
-#cobra .selectFile, 
+#cobra .selectFile,
 #cobra .selectFile {
 	background-color: #1de127;
 	color: #000;
 	border: 1px solid #1de127;
 }
 
-#cobra .selectFile:hover, 
+#cobra .selectFile:hover,
 #cobra .selectFile:hover {
 	background-color: #5fff6a;
 	color: #000;
@@ -234,6 +234,14 @@ label {
 	background-color: black;
     color: white;
     border: 1px solid #00dd00;
+}
+
+#cobra .panel-title a {
+  color: rgb(0, 170, 0);
+}
+
+#cobra .panel-body {
+  color: rgb(0, 95, 0);
 }
 
 /********** Team Motherbrain **********/
@@ -406,7 +414,7 @@ label {
 	background-color: rgb(241, 178, 65);
 }
 
-#footclan h1, 
+#footclan h1,
 #footclan h2 {
     color: #000000;
     text-shadow: 0.05em 0.03em 0.13em #ffa22f;
@@ -418,12 +426,12 @@ label {
     border-color: #f4b840;
 }
 
-#footclan .navbar-brand, 
+#footclan .navbar-brand,
 #footclan .navbar-nav>li>a {
 	color:#ffd47f;
 }
 
-#footclan .navbar-brand:hover, 
+#footclan .navbar-brand:hover,
 #footclan .navbar-nav>li>a:hover {
 	color: #ffab14;
 }
@@ -433,7 +441,7 @@ label {
 	background: url(../img/footclan.jpg) center center no-repeat scroll;
 	background-size: auto 100%;
 	background-color: #130a01;
-	
+
 }
 
 /* Horizontal Rule */
@@ -442,14 +450,14 @@ label {
 }
 
 /* Buttons */
-#footclan .btn-default, 
+#footclan .btn-default,
 #footclan .btn {
 	background-color: #130a01;
     color: #ffaa29;
     border: 1px solid #130a01;
 }
 
-#footclan .btn-default:hover, 
+#footclan .btn-default:hover,
 #footclan .btn:hover {
 	background-color: #542a05;
     color: #ffaa29;
@@ -457,7 +465,7 @@ label {
 }
 
 /* Link Text */
-#footclan a, 
+#footclan a,
 #footclan span.gc-cs-link {
     color: #ce0000;
 }
@@ -469,7 +477,7 @@ label {
 }
 
 /* Forms */
-#footclan .well, 
+#footclan .well,
 #footclan .form-control,
 #footclan .jumbotron {
 	background-color: rgba(63, 11, 11, 0.71);
@@ -477,10 +485,10 @@ label {
     color: #fff39c;
 }
 
-#footclan .well h1, 
+#footclan .well h1,
 #footclan .form-control h1,
 #footclan .jumbotron h1,
-#footclan .well h2, 
+#footclan .well h2,
 #footclan .form-control h2,
 #footclan .jumbotron h2 {
 	color: #ffeecf;
@@ -512,7 +520,7 @@ label {
 	background-color: rgb(220, 206, 255);
 }
 
-#decepticons h1, 
+#decepticons h1,
 #decepticons h2 {
     color: #000000;
     text-shadow: 0.05em 0.03em 0.13em #a543ff;
@@ -524,12 +532,12 @@ label {
     border-color: #7846ff;
 }
 
-#decepticons .navbar-brand, 
+#decepticons .navbar-brand,
 #decepticons .navbar-nav>li>a {
 	color: #ede0ff;
 }
 
-#decepticons .navbar-brand:hover, 
+#decepticons .navbar-brand:hover,
 #decepticons .navbar-nav>li>a:hover {
 	color: #e394ff;
 }
@@ -539,7 +547,7 @@ label {
 	background: url(../img/decepticons.jpg) center center no-repeat scroll;
 	background-size: auto 100%;
 	background-color: #130a01;
-	
+
 }
 
 /* Horizontal Rule */

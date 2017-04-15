@@ -16,7 +16,7 @@ class UserManager {
 			die("Connection failed: " . $conn->connect_error);
 		}
 
-		$sql = "SELECT userID, username, password, trophyCode FROM user";
+		$sql = "SELECT userID, username, password, trophyCode, pin_crack_trophy, password_crack_trophy FROM user";
 
 		if( !empty($hashed_pin) )
 		{

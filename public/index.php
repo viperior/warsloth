@@ -7,7 +7,7 @@
 	<div class="col-sm-12">
 		<h2>What We Do</h2>
 		<p><?php echo $companyName ?> offers high value and low moral standards for your business solutions. Pay us to move mysterious boxes of stuff or send a friend an intimidation holiday card!
-		<p>You want find better or more questionable business entreprise services. At <?php echo $companyName ?>, we value results over methodology. Strike now with a VIP business partnership.</p>
+		<p>You won't find better or more questionable business entreprise services. At <?php echo $companyName ?>, we value results over methodology. Strike now with a VIP business partnership.</p>
 		<p>
 			<a class="btn btn-default btn-lg" href="contact.php">Hire <?php echo $companyName ?> &raquo;</a>
 		</p>

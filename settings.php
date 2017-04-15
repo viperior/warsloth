@@ -1,6 +1,6 @@
-<?php 
+<?php
 	// change this to be the desired team
-	$team = "footclan";
+	$team = "cobra";
 
 	$settings = array(
 		'cobra' => array(),
