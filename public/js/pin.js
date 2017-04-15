@@ -107,7 +107,7 @@ function is_expected_hash(hashed_user_pin) {
 }
 
 function log_in_with_pin(hashed_user_pin) {
-  url = './loginPost.php?hashed_pin=' + hashed_user_pin /*+ '&method=pin'*/;
+  url = './loginPost.php?hashed_pin=' + hashed_user_pin;
   window.location = url;
 }
 
