@@ -5,7 +5,7 @@
 		<footer>
 			<div class="row">
 				<div class="col-lg-12">
-					<p>Copyright &copy; <?php echo $companyName ?> 2017</p>
+					<p>Copyright &copy; <?php echo $companyName ?> 2017 | Powered by <a href="./protohasher/">Protohasher</a></p>
 				</div>
 			</div>
 			<!-- /.row -->
