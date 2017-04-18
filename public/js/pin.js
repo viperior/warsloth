@@ -34,31 +34,21 @@ function hashes() {
       Please fix this before delivering the site to our clients!
       - Dan from IT
 
-      You have discovered a trophy! Give this code to the judges: 3MplSoDP
+      You have discovered a trophy! Give this code to the judges: YK6ASZwA
   */
 
   switch(team) {
     case 'cobra':
       expected_hashes = [
-        19404,
-        40572,
-        45864,
-        29988,
-        33516,
-        49392
-      ]
-      break;
-    case 'motherbrain':
-      expected_hashes = [
         26460,
         47628,
-        19404,
+        21168,
         37044,
         40572,
         56448
       ]
       break;
-    case 'redfalcon':
+    case 'motherbrain':
       expected_hashes = [
         33516,
         38808,
@@ -68,17 +58,17 @@ function hashes() {
         63504
       ]
       break;
-    case 'footclan':
+    case 'redfalcon':
       expected_hashes = [
         40572,
         29988,
         33516,
         35280,
         38808,
-        28224
+        49392
       ]
       break;
-    case 'decepticons':
+    case 'footclan':
       expected_hashes = [
         47628,
         37044,
@@ -86,6 +76,16 @@ function hashes() {
         42336,
         45864,
         35280
+      ]
+      break;
+    case 'decepticons':
+      expected_hashes = [
+        54684,
+        28224,
+        31752,
+        33516,
+        37044,
+        42336
       ]
       break;
   }
