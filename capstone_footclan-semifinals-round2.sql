@@ -78,12 +78,12 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'ceo',        'toe',            '7789', '54684', 'usercode', 'pincrack', 'passcrack', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
-INSERT INTO `user` VALUES ('2', 'admin',      'Boots',          '4183', '28224', 'usercode', 'pincrack', 'passcrack', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
-INSERT INTO `user` VALUES ('3', 'test',       'password',       '5274', '31752', 'usercode', 'pincrack', 'passcrack', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
-INSERT INTO `user` VALUES ('4', 'epowers',    'incorrect',      '3187', '33516', 'usercode', 'pincrack', 'passcrack', '2017-02-19 16:04:26', '2017-04-10 20:21:29');
-INSERT INTO `user` VALUES ('5', 'sjohnson',   'C6(3Hd0$5Afa',   '3189', '37044', 'usercode', 'pincrack', 'passcrack', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
-INSERT INTO `user` VALUES ('6', 'bnewell',    'freeze',         '6666', '42336', 'usercode', 'pincrack', 'passcrack', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
+INSERT INTO `user` VALUES ('1', 'ceo',        'shoe',             '6678', '47628', 'stS9jeDy', 'znHCdodD', 'LaoVIiGA', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
+INSERT INTO `user` VALUES ('2', 'admin',      'Sneakers',         '3972', '37044', 'mnluUAT5', 'znHCdodD', 'LaoVIiGA', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
+INSERT INTO `user` VALUES ('3', 'test',       'password',         '4163', '24696', 'cZSm6Z19', 'znHCdodD', 'LaoVIiGA', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
+INSERT INTO `user` VALUES ('4', 'epowers',    'incorrect',        '2976', '42336', 'eZ0lVOct', 'znHCdodD', 'LaoVIiGA', '2017-02-19 16:04:26', '2017-04-10 20:21:29');
+INSERT INTO `user` VALUES ('5', 'sjohnson',   'agD#75F!d13',      '2978', '45864', 'THm9XDw4', 'znHCdodD', 'LaoVIiGA', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
+INSERT INTO `user` VALUES ('6', 'bnewell',    'bats',             '5555', '35280', '9RtvZ9j6', 'znHCdodD', 'LaoVIiGA', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
 
 -- ----------------------------
 -- Table structure for `launch_codes`
@@ -101,4 +101,4 @@ CREATE TABLE `launch_codes` (
 -- ----------------------------
 -- Records of launch_codes
 -- ----------------------------
-INSERT INTO `launch_codes` VALUES ('1', '9738742131', 'missilecode', 'BGM-109 Tomahawk');
+INSERT INTO `launch_codes` VALUES ('1', '8738732131', '4yIz9v5s', 'BGM-109 Tomahawk');

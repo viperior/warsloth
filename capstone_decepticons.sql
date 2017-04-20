@@ -78,12 +78,12 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'ceo',        'metal',          '7789', '54684', 'iTRSqDHS', 'Y4Qyi91T', 'l1tiOJS0', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
-INSERT INTO `user` VALUES ('2', 'admin',      'Chrome',         '4183', '28224', '2w9004Nw', 'Y4Qyi91T', 'l1tiOJS0', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
-INSERT INTO `user` VALUES ('3', 'test',       'password',       '5274', '31752', 'NyDONgA6', 'Y4Qyi91T', 'l1tiOJS0', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
-INSERT INTO `user` VALUES ('4', 'sholland',   'incorrect',      '3187', '33516', 'SxAGgCgD', 'Y4Qyi91T', 'l1tiOJS0', '2017-02-19 16:04:26', '2017-04-10 20:21:29');
-INSERT INTO `user` VALUES ('5', 'rfoster',    'E!gf4CF#Hb23',   '3189', '37044', 'ZSFjTfEY', 'Y4Qyi91T', 'l1tiOJS0', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
-INSERT INTO `user` VALUES ('6', 'wjinks',     'scrap',          '6666', '42336', 'EPG1CM08', 'Y4Qyi91T', 'l1tiOJS0', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
+INSERT INTO `user` VALUES ('1', 'ceo',        'shiny',         '8891', '45864', 'usercode', 'pincrack', 'passcrack', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
+INSERT INTO `user` VALUES ('2', 'admin',      'Smart',         '5294', '35280', 'usercode', 'pincrack', 'passcrack', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
+INSERT INTO `user` VALUES ('3', 'test',       'password',      '6385', '38808', 'usercode', 'pincrack', 'passcrack', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
+INSERT INTO `user` VALUES ('4', 'sholland',   'incorrect',     '4298', '40572', 'usercode', 'pincrack', 'passcrack', '2017-02-19 16:04:26', '2017-04-10 20:21:29');
+INSERT INTO `user` VALUES ('5', 'rfoster',    'Gd2@6Cg7$BE',   '4291', '28224', 'usercode', 'pincrack', 'passcrack', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
+INSERT INTO `user` VALUES ('6', 'wjinks',     'word',          '7777', '49392', 'usercode', 'pincrack', 'passcrack', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
 
 -- ----------------------------
 -- Table structure for `launch_codes`
@@ -101,4 +101,4 @@ CREATE TABLE `launch_codes` (
 -- ----------------------------
 -- Records of launch_codes
 -- ----------------------------
-INSERT INTO `launch_codes` VALUES ('1', '7029201887', 'IJGEcBCi', 'BGM-109 Tomahawk');
+INSERT INTO `launch_codes` VALUES ('1', '8029211887', 'missilecode', 'BGM-109 Tomahawk');

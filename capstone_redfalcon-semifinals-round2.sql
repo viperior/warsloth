@@ -31,7 +31,7 @@ CREATE TABLE `review` (
 -- Records of review
 -- ----------------------------
 INSERT INTO `review` VALUES ('1', 'Trustworthy and Discrete', 'Understands the importance of confidentiality, and can always be trusted not to reveal confidential or private information to unauthorized parties. Tries to copy, but with limited ability. Enjoys working without supervision.', '2017-03-22 16:46:02');
-INSERT INTO `review` VALUES ('6', 'One Word to Describe Foot Clan', '<marquee behavior=\"alternate\" loop=\"infinite\"><h1>EXCELLENT</h1></marquee>', null);
+INSERT INTO `review` VALUES ('6', 'One Word to Describe Red Falcon', '<marquee behavior=\"alternate\" loop=\"infinite\"><h1>EXCELLENT</h1></marquee>', null);
 
 -- ----------------------------
 -- Table structure for `staff`
@@ -51,10 +51,10 @@ CREATE TABLE `staff` (
 -- ----------------------------
 -- Records of staff
 -- ----------------------------
-INSERT INTO `staff` VALUES ('1', 'The', 'Shredder', 'Founder and CEO of Foot Clan.', '2017-04-10 20:18:50', '2017-04-10 20:18:51');
-INSERT INTO `staff` VALUES ('2', 'Elaina', 'Powers', 'Chief of Financial Services, Mrs. Powers is responsible for all financial affairs.', '2017-04-10 20:18:52', '2017-04-10 20:18:53');
-INSERT INTO `staff` VALUES ('3', 'Savannah', 'Johnson', 'Ms. Johnson is a special agent overseer in charge of several confidential projects.', '2017-04-10 20:18:53', '2017-04-10 20:18:55');
-INSERT INTO `staff` VALUES ('4', 'Baz', 'Newell', 'Martial arts expert and master ninja, Mr. Newell is head of combat training internationally.', '2017-04-10 20:18:55', '2017-04-10 20:18:57');
+INSERT INTO `staff` VALUES ('1', 'Emperor', 'Java', 'Full name: Emperor Demon Java or Emperor Demon Evil Heart Gomera Mosking. Founder and CEO of Red Falcon.', '2017-04-10 20:18:50', '2017-04-10 20:18:51');
+INSERT INTO `staff` VALUES ('2', 'Elliott', 'Ryers', 'Chief of Financial Services, Mr. Ryers is responsible for all financial affairs.', '2017-04-10 20:18:52', '2017-04-10 20:18:53');
+INSERT INTO `staff` VALUES ('3', 'Osbert', 'Mayes', 'Ms. Mayes is a special agent overseer in charge of several confidential projects.', '2017-04-10 20:18:53', '2017-04-10 20:18:55');
+INSERT INTO `staff` VALUES ('4', 'Christi', 'Scarlett', 'Martial arts expert and master ninja, Mrs. Scarlett is head of combat training internationally.', '2017-04-10 20:18:55', '2017-04-10 20:18:57');
 
 -- ----------------------------
 -- Table structure for `user`
@@ -78,12 +78,12 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'ceo',        'toe',            '7789', '54684', 'usercode', 'pincrack', 'passcrack', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
-INSERT INTO `user` VALUES ('2', 'admin',      'Boots',          '4183', '28224', 'usercode', 'pincrack', 'passcrack', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
-INSERT INTO `user` VALUES ('3', 'test',       'password',       '5274', '31752', 'usercode', 'pincrack', 'passcrack', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
-INSERT INTO `user` VALUES ('4', 'epowers',    'incorrect',      '3187', '33516', 'usercode', 'pincrack', 'passcrack', '2017-02-19 16:04:26', '2017-04-10 20:21:29');
-INSERT INTO `user` VALUES ('5', 'sjohnson',   'C6(3Hd0$5Afa',   '3189', '37044', 'usercode', 'pincrack', 'passcrack', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
-INSERT INTO `user` VALUES ('6', 'bnewell',    'freeze',         '6666', '42336', 'usercode', 'pincrack', 'passcrack', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
+INSERT INTO `user` VALUES ('1', 'ceo',        'fly',            '5567', '40572', 'BgpWfL7l', '3ILHqFkT', '1e2dR3xh', '2017-02-04 13:59:52', '2017-02-19 16:04:18');
+INSERT INTO `user` VALUES ('2', 'admin',      'Crow',           '2861', '29988', 'ZmhgIzub', '3ILHqFkT', '1e2dR3xh', '2017-02-04 13:59:54', '2017-02-19 16:04:11');
+INSERT INTO `user` VALUES ('3', 'test',       'password',       '3952', '33516', 'MlB03UBr', '3ILHqFkT', '1e2dR3xh', '2017-02-19 16:04:26', '2017-02-19 16:04:36');
+INSERT INTO `user` VALUES ('4', 'eryers',     'incorrect',      '1865', '35280', '3OsyA3pO', '3ILHqFkT', '1e2dR3xh', '2017-02-19 16:04:26', '2017-04-10 20:21:29');
+INSERT INTO `user` VALUES ('5', 'omayes',     'cF0#CaD@7saG',   '1867', '38808', 'lRCOA3uG', '3ILHqFkT', '1e2dR3xh', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
+INSERT INTO `user` VALUES ('6', 'cscarlett',  'rocks',          '7777', '49392', 'Rvv9Dm77', '3ILHqFkT', '1e2dR3xh', '2017-04-10 20:21:33', '2017-04-10 20:21:35');
 
 -- ----------------------------
 -- Table structure for `launch_codes`
@@ -101,4 +101,4 @@ CREATE TABLE `launch_codes` (
 -- ----------------------------
 -- Records of launch_codes
 -- ----------------------------
-INSERT INTO `launch_codes` VALUES ('1', '9738742131', 'missilecode', 'BGM-109 Tomahawk');
+INSERT INTO `launch_codes` VALUES ('1', '3376031045', 'tKi2qgBo', 'BGM-109 Tomahawk');
