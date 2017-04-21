@@ -5,7 +5,7 @@ class SettingsManager {
 		'db_servername' => "localhost",
 		'db_username' => "root",
 		'db_password' => "",
-		'db_name' => "capstone_cobra"
+		'db_name' => "capstone_decepticons"
 	];
 
 	// method declaration

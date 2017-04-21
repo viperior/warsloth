@@ -7,14 +7,13 @@
 		<h2>Login</h2>
 
 
-		<form action="loginPost.php" method="post">
+		<form method="post">
 			<div class="form-group" id="login">
-				<!-- test user: test:password -->
 				<label>Username<br/>
-					<input class="form-control" type="text" name="username" />
+					<input class="form-control" type="text" />
 				</label>
 				<label>Password<br/>
-					<input class="form-control" type="password" name="password" />
+					<input class="form-control" type="password" />
 				</label>
 				<button class="btn btn-primary" type="submit">Login</button>
 			</div>
@@ -24,9 +23,8 @@
 
 		<form class="form-inline">
 			<div class="form-group">
-				<input id="pin-code-input" class="form-control" type="number" name="pin" />
-				<button class="btn" type="button" onclick="check_pin()">Login</button>
-				<p id="pin-code-feedback"></p>
+				<input class="form-control" type="number"/>
+				<button class="btn" type="button">Login</button>
 			</div>
 		</form>
 

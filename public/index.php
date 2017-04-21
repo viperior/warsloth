@@ -6,10 +6,10 @@
 <div class="row">
 	<div class="col-sm-12">
 		<h2>What We Do</h2>
-		<p><?php echo $companyName ?> offers high value and low moral standards for your business solutions. Pay us to move mysterious boxes of stuff or send a friend an intimidation holiday card!
-		<p>You won't find better or more questionable business entreprise services. At <?php echo $companyName ?>, we value results over methodology. Strike now with a VIP business partnership.</p>
+		<p>Decepticons offers high value and low moral standards for your business solutions. Pay us to move mysterious boxes of stuff or send a friend an intimidation holiday card!
+		<p>You won't find better or more questionable business entreprise services. At Decepticons, we value results over methodology. Strike now with a VIP business partnership.</p>
 		<p>
-			<a class="btn btn-default btn-lg" href="contact.php">Hire <?php echo $companyName ?> &raquo;</a>
+			<a class="btn btn-default btn-lg" href="contact.php">Hire Decepticons &raquo;</a>
 		</p>
 	</div>
 </div>
@@ -37,7 +37,7 @@
 			<img class="img-circle img-responsive img-center" src="img/money.png" alt="">
 		</div>
 		<h2>Semi-Legimate Business Schemes</h2>
-		<p>I say, "potato", you say "federal felony." <?php echo $companyName ?> takes pride in braving the greyer areas of entreprise.</p>
+		<p>I say, "potato", you say "federal felony." Decepticons takes pride in braving the greyer areas of entreprise.</p>
 	</div>
 </div>
 <!-- /.row -->

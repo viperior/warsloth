@@ -41,13 +41,13 @@
 
 <h2>Leave a Review</h2>
 <div class="container">
-	<form name="reviewForm" id="reviewForm" action="" method="post">
+	<form action="" method="">
 		<div class="row" >
 			<label for="reviewTitle">Review Title</label>
-			<input type="text" name="reviewTitle" id="reviewTitle" class="form-control" value="" required="true" placeholder="Enter a Review Title" />
+			<input type="text" class="form-control" value="" required="true" placeholder="Enter a Review Title" />
 			<br/>
 			<label for="reviewTitle">Review Text</label>
-			<textarea name="reviewText" id="reviewText" class="form-control" rows="7" required="true"></textarea>
+			<textarea class="form-control" rows="7" required="true"></textarea>
 			<br/>
 		</div>
 		<div class="row" style="text-align: right;">

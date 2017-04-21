@@ -34,10 +34,10 @@
 	<div class="col-sm-12">
 		<h2>About Us</h2>
 		<p>
-			<?php echo $companyName ?> holisticly facilitates efficient niche markets. We are progressive, future-proof, mesh-proof, and web-ready. Our soldiers are trained to handle any of your business needs.
+			Decepticons holisticly facilitates efficient niche markets. We are progressive, future-proof, mesh-proof, and web-ready. Our soldiers are trained to handle any of your business needs.
 		</p>
 		<p>
-			Meet the members of the <?php echo $companyName ?> corporate family below.
+			Meet the members of the Decepticons corporate family below.
 		</p>
 	</div>
 </div>
@@ -48,7 +48,7 @@
 		<form action="" method="post">
 			<label>
 				Filter
-				<input class="form-control" type="text" name="staffFilter" value="<?php echo $filter ?>" />
+				<input class="form-control" type="text" />
 			</label>
 			<button class="btn btn-primary">Search</button>
 		</form>
