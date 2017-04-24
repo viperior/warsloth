@@ -6,17 +6,16 @@
 	if(isset($_POST["reviewText"])) {
 		$reviewManager->createReview($_POST["reviewTitle"], $_POST["reviewText"]);
 
-		// redirect to this page
+		// Redirect to this page
 		header('Location: services.php');
 		die();
 	}
 
-	// get reviews
+	// Get reviews
 	$reviews = $reviewManager->getReviews();
 ?>
 
 <?php include "includes/header.php"; ?>
-
 
 <div class="row">
 	<div class="col-sm-12">
@@ -55,6 +54,5 @@
 		</div>
 	</form>
 </div>
-
 
 <?php include "includes/footer.php"; ?>

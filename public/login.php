@@ -6,7 +6,6 @@
 	<div class="col-sm-12">
 		<h2>Login</h2>
 
-
 		<form action="loginPost.php" method="post">
 			<div class="form-group" id="login">
 				<!-- test user: test:password -->

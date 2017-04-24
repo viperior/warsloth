@@ -2,6 +2,8 @@
 	require dirname(__FILE__) . '/../com/capstone/model/userManager.php';
 	$userManager = new UserManager();
 
+	// Get the POST variables username, password, and hashed_pin
+
 	$username = "";
 	if(isset($_POST["username"])) {
 		$username = $_POST["username"];
@@ -11,8 +13,11 @@
 		$password = $_POST["password"];
 	}
 
+	// Determine the login method used
+
 	$hashed_pin = "";
 	$login_method = "";
+
 	if(isset($_GET["hashed_pin"]))
 	{
 		$hashed_pin = $_GET["hashed_pin"];
@@ -23,15 +28,7 @@
 		$login_method = "password";
 	}
 
-	/*
-	$login_method = "";
-	if(isset($_GET["method"]))
-	{
-		$hashed_pin = $_GET["method"];
-	}
-	*/
-
-	// get user
+	// Get user
 	$user = $userManager->loginUser($username, $password, $hashed_pin);
 
 	include "includes/header.php";

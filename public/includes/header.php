@@ -17,7 +17,7 @@
 	<link href="./css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom CSS -->
-	<link href="./css/business-frontpage.css" rel="stylesheet">
+	<link href="./css/business-frontpage.css?version=1.0.2" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,14 +69,17 @@
 					</li>
 
 					<?php
+						// Check whether user is logged in
 						if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true)
 						{
+							// Show Account and Log Out menu items
 							echo '<li><a href="account.php">Account</a></li>';
 							$username = $_SESSION["username"];
 							echo '<li><a href="logout.php">Log out</a></li>';
 						}
 						else
 						{
+							// Show Login menu item
 							echo '<li><a href="login.php">Login</a></li>';
 						}
 					?>

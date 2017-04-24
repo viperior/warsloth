@@ -2,6 +2,7 @@
 	require '../com/capstone/model/staffManager.php';
 	$staffManager = new StaffManager();
 
+	// Get the filter text, if any
 	if(isset($_POST["staffFilter"])) {
 		$filter = $_POST["staffFilter"];
 	}
@@ -9,9 +10,10 @@
 		$filter = "";
 	}
 
-	// get staff
+	// Get staff members. Apply filter to results if given.
 	$staff = $staffManager->getStaff($filter);
 
+	// Random staff avatar color generation
 	function rand_part($min, $max) {
 		return str_pad( dechex( mt_rand( $min, $max ) ), 2, '0', STR_PAD_LEFT);
 	}
@@ -27,8 +29,6 @@
 ?>
 
 <?php include "includes/header.php"; ?>
-
-
 
 <div class="row">
 	<div class="col-sm-12">
@@ -55,6 +55,7 @@
 		<hr/>
 	</div>
 
+	<!-- Display the staff members, with a filter if provided by user -->
 	<?php while($row = $staff->fetch_assoc()) { ?>
 		<div class="col-sm-6">
 			<div class="about-circle" style="background-color: #<?php echo rand_color()?>"><?php echo substr($row["firstname"], 0, 1) . substr($row["lastname"], 0, 1) ?></div>

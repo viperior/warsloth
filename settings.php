@@ -1,5 +1,5 @@
 <?php
-	// change this to be the desired team
+	// Change this to be the desired team
 	$team = "cobra";
 
 	$settings = array(
@@ -35,7 +35,7 @@
 	$settings['decepticons']['companyBodyClass'] = "decepticons";
 	$settings['decepticons']['ceoEmail'] = "admin@decepticons.com";
 
-	// init settings
+	// Init settings
 	$companyName = $settings[$team]['companyName'];
 	$companyBodyClass = $settings[$team]['companyBodyClass'];
 	$ceoEmail = $settings[$team]['ceoEmail'];

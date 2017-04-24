@@ -1,5 +1,6 @@
 <?php
 	include "includes/header.php";
+	// Destroy the PHP session to log the user out
 	session_unset();
 	session_destroy();
 ?>
