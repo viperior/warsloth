@@ -55,10 +55,6 @@ $(document).ready(function() {
   context2.textAlign = "center";
   context2.fillText("Patriot Games 2017", SCREEN_WIDTH / 2, SCREEN_HEIGHT / 6);
 
-  // Play music
-  var audio = new Audio('credits/credits.mp3');
-  audio.play();
-
 });
 
 // update mouse position
